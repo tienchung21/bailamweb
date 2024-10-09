@@ -92,7 +92,7 @@ li a{
 .content-home h3{
     font-size: 13px;
 }
-.container{
+.containerr{
     
     height: auto;
     position: relative;
@@ -182,7 +182,7 @@ li a{
 
 .fortfolio-container{
 padding: 150px 0px 100px 0px;
-margin: 0 278px;
+margin: 0 220px;
 }
 .fortfolio-header{
     display: flex;
@@ -354,10 +354,84 @@ opacity: 0.9;
 #watch-video:hover{
     background-color: #ff9800;
 }
+.shane-secsion2{
+   
+    background-image: url('../style/img/shane-secsion2.png')  ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.news-container{
+    padding: 100px;
+    display: flex;
+    
+    flex-direction: column;
+    
+}
+.row-news{
+    
+    justify-content: flex-start;
+    flex-direction: column;
+    
+    
+}
+.row-news1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+#span-news{
+    background-color: #e2c9a3;
+    padding: 5px 10px;
+}
+.row-news1 > .item{
+    margin: 30px;
+}
+.item >p{
+    margin: 15px 0px;
+    color: black;
+}
+.item >i{
+    opacity: 0.6;
+}
+
+.contact{
+    position: relative;
+
+}
+.contact-container{
+    background: url(../style/img/thanhpho.png);
+    height: 800px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact-container >.title{
+    font-size: 90px;
+    color: #ffffff;
+}
+.contact-container > button{
+    border: 1px solid #ff9800;
+    background-color: #ff9800;
+    color: #f0ebe4;
+    font-size: 18px;
+    padding: 25px 60px;
+}
+.contact-container > button:hover{
+    background-color: transparent;
+
+}
 
 
-
-
+.modal-dialog{
+    padding-top: 200px;
+}
 
 
 
