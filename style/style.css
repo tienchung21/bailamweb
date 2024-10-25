@@ -276,7 +276,7 @@ margin: 0 280px;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.item{
+.fortfolio-content>.item{
     padding: 25px 20px 25px 0px;
     width: 43vh;
    height: 43vh;
@@ -929,6 +929,89 @@ opacity: 0.9;
     padding: 5px;
     font-size: 20px;
 }
+.settingweb{
+    position: fixed;
+    top: 23vh;
+    
+    right: 0;
+    height: auto;
+    width: 170px;
+
+}
+.settingweb h4{
+    color: #f0ebe4;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 30px;
+}
+.setting-color>.item{
+    width: 28px;
+    height: 28px;
+    margin: 2px;
+
+    background-color: blue;
+    border-radius: 50%;
+    padding: 5px;
+   
+}
+.setting-color{
+    height: 96px;
+    width: 128px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: 20px;
+  
+}
+.settingweb-container{
+    background-color: #000;
+    transform: translateX(+100%);
+    transition: 0.5s;
+}
+
+
+
+.settingweb-container >span{
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  right: 100%;
+  top: 0;
+  background-color: #000;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 20px;
+}
+.ti-settings{
+    color: #f2f2f2;
+    animation: rotage360 2s infinite;
+    background-color: transparent;
+    z-index: 1000000000;
+    
+}
+@keyframes rotage360{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+:root{
+    /* --span-color: none ;  */
+}
+.span-color{
+    /* background-color: var(--span-color);
+    border-color: var(--span-color); */
+}
+
+
+
+
 
 
 

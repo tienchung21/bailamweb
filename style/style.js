@@ -3,7 +3,7 @@
         document.getElementById("new-modal").style.display = "flex";
       }
       
-      function off() {
+      function offa() {
         document.getElementById("new-modal").style.display = "none";
       }
     
@@ -79,6 +79,32 @@
       function off() {
         document.getElementById("contact-modal").style.display = "none";
       }
+      let trangthai = false;
+      Boolean(trangthai);
+      function dongmo(){
+     
+        if(trangthai == false)
+        {
+          document.getElementById("settingweb-container").style.transform="translateX(-0%)";
+          trangthai = true;
+        }  
+        else if(trangthai == true)
+          {
+            document.getElementById("settingweb-container").style.transform="translateX(+100%)";
+            trangthai = false;
+          }
+         
+      }
+
+
+
+      function doimau1(){
+        const root = document.querySelector(':root');
+        const mau=document.getElementById().style.backgroundColor
+        console.log(mau)
+        root.style.setProperty('--span-color',mau);
+        
+      }
 
 
 
@@ -104,3 +130,6 @@
           document.getElementById("header").style.backgroundColor = "transparent"
         }
       }
+
+
+
